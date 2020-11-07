@@ -199,7 +199,7 @@ def chat_page():
     session['username'] = username
     session_count = db.child("users").child(
         email_trim).child("session").get().val()
-    print(session['email'])
+    # print(session['email'])
     if session_count > 1:
         mental_state = db.child("users").child(
             email_trim).child("mentalstate").get().val()
