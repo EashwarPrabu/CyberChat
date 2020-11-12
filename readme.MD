@@ -25,9 +25,9 @@ The dataset that was used for Toxic Comment Classification was taken from [Kaggl
 
 Based on the user's message the App classifies them into 3 broad categories:
 
-- Non - toxic Comment represented by a ✅
-- Toxic Comment represented by a ❗
-- Suspicious Comment (represented by a Yellow Exclamation mark).
+- **Non - toxic Comment** represented by a ✅
+- **Toxic Comment** represented by a ❗
+- **Suspicious Comment** (represented by a Yellow Exclamation mark).
 
 All the Toxic and Suspicious Comments will be accompanied by a set of tags that were found associated with the message.
 
